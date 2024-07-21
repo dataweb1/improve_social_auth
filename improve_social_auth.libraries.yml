@@ -1,0 +1,4 @@
+login_with:
+  css:
+    theme:
+      assets/css/login-with.css: {}

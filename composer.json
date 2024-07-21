@@ -1,0 +1,23 @@
+{
+    "name": "dataweb1/improve_social_auth",
+    "description": "Drupal module that improves the Social Auth module.",
+    "type": "drupal-module",
+    "homepage": "https://github.com/dataweb1/improve_social_auth",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://www.drupal.org/about/10"
+        }
+    ],
+    "require": {
+        "drupal/social_auth": "^4.0",
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Bert Jansen",
+            "email": "bert@data-web.be",
+            "role": "Owner"
+        }
+    ]
+}

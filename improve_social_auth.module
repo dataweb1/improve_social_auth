@@ -1,0 +1,8 @@
+<?php
+/**
+ * Implements hook_theme_registry_alter().
+ */
+function improve_social_auth_theme_registry_alter(&$theme_registry): void {
+  $module_path = Drupal::service('extension.path.resolver')->getPath('module', 'improve_social_auth');
+  $theme_registry['login_with']['path'] = $module_path . '/templates';
+}

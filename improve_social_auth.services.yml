@@ -1,0 +1,15 @@
+services:
+  improve_social_auth.event_subscriber.add_social_auth_mapping_to_settings_form:
+    class: Drupal\improve_social_auth\EventSubscriber\AddSocialAuthMappingToSettingsForm
+    arguments:
+      - '@config.factory'
+      - '@string_translation'
+    tags:
+      - { name: event_subscriber }
+
+  improve_social_auth.event_subscriber.social_auth_user_values_mapping_on_user_pre_save:
+    class: Drupal\improve_social_auth\EventSubscriber\SocialAuthUserValuesMappingOnUserPreSave
+    arguments:
+      - '@config.factory'
+    tags:
+      - { name: event_subscriber }

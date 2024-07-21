@@ -1,0 +1,13 @@
+name: Improve Auth Social
+type: module
+description: Improve Auth Social Theming/Functionality.
+core: 8.x
+package: dw
+
+core_version_requirement: ^10
+
+dependencies:
+  - drupal:social_auth
+
+interface translation project: improve_social_auth
+interface translation server pattern: modules/contrib/improve_social_auth/translations/%project.%language.po
