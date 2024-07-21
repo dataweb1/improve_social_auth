@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "drupal/social_auth": "^4.0",
+        "drupal/social_auth": "^4.0"
     },
     "license": "GPL-2.0-or-later",
     "authors": [
